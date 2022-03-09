@@ -1,0 +1,290 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
+
+body {
+  font-family: "EB Garamond", serif !important;
+}
+
+/* TODO NAVBAR */
+.navbar-toggler {
+  z-index: 10;
+}
+.nav-link-my {
+  list-style: none;
+}
+.nav-bg {
+  background-color: none !important;
+  position: absolute !important;
+  top: 0 !important;
+  line-height: 2.5;
+  margin-left: 35px;
+  width: 90%;
+}
+
+.nav-link-my {
+  position: absolute;
+  right: 0;
+  top: -16px;
+  z-index: 10;
+}
+
+.a-link:hover {
+  text-decoration: none !important;
+}
+
+.nav-togler {
+  background-color: #f4eeee !important;
+}
+
+.nav-color {
+  z-index: 10;
+  font-size: 20px;
+  font-weight: 700;
+  color: white !important;
+}
+
+/*  Section 1  */
+.bg-img {
+  z-index: 16;
+  height: 600px;
+  background-image: url(../Images/01.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  clip-path: polygon(100% 0, 100% 83%, 25% 83%, 0 100%, 0 0);
+}
+
+.bg-trans {
+  position: relative;
+  background-color: #e3290842;
+  height: 600px;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+  /* border-bottom: solid 35px white; */
+}
+
+.div-rotate {
+  z-index: 0;
+  position: absolute;
+  bottom: -110px;
+  left: -20px;
+  background-color: white;
+  width: 430px;
+  height: 181px;
+  transform: rotate(172deg);
+}
+
+.div-experts {
+  margin-top: 250px;
+}
+
+.div-p {
+  color: white;
+  font-weight: 600;
+}
+
+.on-color {
+  color: white;
+}
+
+.only-border1 {
+  z-index: 9;
+}
+
+.bg-butt {
+  background-color: #ffffff00 !important;
+  color: white !important;
+  border: solid 2px !important;
+}
+
+/*  Section 2  */
+.img-stair-style {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.padd-img-text {
+  padding-top: 100px;
+}
+
+.my-conte {
+  padding-inline: 105px;
+}
+
+/*  Section 3  */
+
+/* !  Section 4  */
+.hr-style2 {
+  border-top: solid 3px #fefbfb;
+}
+
+.my-color {
+  color: white !important;
+}
+
+.my-sec-color {
+  color: #848484;
+}
+
+.card-border {
+  border: solid;
+  height: 300px;
+}
+
+.line {
+  background-color: #444445;
+  position: absolute;
+  width: 55px;
+  height: 575px;
+  left: 50px;
+}
+
+.line2 {
+  background-color: #444445;
+  position: absolute;
+  width: 55px;
+  height: 575px;
+  right: 50px;
+}
+
+.bg-black {
+  position: relative;
+  background-color: #101010;
+}
+.div-rotate2 {
+  background-color: white;
+  position: absolute;
+  top: -50px;
+  left: 50px;
+  width: 100px;
+  height: 100px;
+  transform: rotate(180deg);
+}
+/* ! Section 4  */
+
+.hr-style {
+  border-top: solid 3px black;
+}
+
+.img-of-blogs {
+  max-width: 100%;
+}
+
+.padd-for-blogs {
+  margin-top: 20px;
+  padding-inline: 20px;
+}
+
+.for-poss-but {
+  position: relative;
+}
+
+.butt-style {
+  position: absolute;
+  bottom: 15px;
+  left: 20px;
+  background-color: black;
+  color: white;
+  padding-inline: 30px;
+  border: none;
+}
+
+.butt-view-style {
+  margin-top: 25px;
+  padding: 5px;
+  padding-inline: 35px;
+  background-color: white;
+}
+
+.img-hov:hover {
+  opacity: 0.6;
+}
+
+.hov-butt:hover {
+  background-color: black;
+  color: white;
+}
+
+/*  Section 3  */
+/*  Section 4  */
+.img-cate-style {
+  max-width: 100%;
+  position: relative;
+}
+
+.cate-text-style {
+  color: white;
+  bottom: 40px;
+  position: absolute;
+  left: 35px;
+}
+
+.padd-no {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+/* Footer */
+.bg-style {
+  color: white;
+  padding-block: 30px;
+  background-color: #363534;
+}
+
+.icon-style {
+  color: white;
+  font-size: 10px !important;
+}
+
+/* Section 6 */
+.rain-img {
+  border-bottom: solid 400px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.border-img {
+  border-top: solid 60px #d3d2a5;
+  border-left: solid 500px #684548;
+  border-right: solid 50px #684548;
+  border-bottom: solid 70px #d3d2a5;
+}
+
+.content {
+  position: absolute;
+  top: 115px;
+  right: 75px;
+  max-width: 500px;
+  text-align: center;
+  color: white;
+}
+
+/* Section 6 */
+
+/* @Media Query */
+@media only screen and (max-width: 767px) {
+  .line {
+    height: 1500px;
+  }
+
+  .line2 {
+    height: 1500px;
+  }
+
+  .border-img {
+    border-top: solid 0px #ffffff00;
+    border-left: solid 0px #68454800;
+    border-right: solid 0px #68454800;
+    border-bottom: solid 0px #d3d2a500;
+  }
+
+  .rain-img {
+    border-bottom: solid 0px;
+  }
+
+  .content {
+    top: 37px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+}

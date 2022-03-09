@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
+
+body {
+  font-family: "EB Garamond", serif !important;
+  background-color: #dfdfdf !important;
+}
+.map-style {
+  max-width: 100%;
+}
+.but-contact {
+  margin-top: 25px;
+  padding: 5px;
+  padding-inline: 35px;
+  background-color: rgb(1 61 85);
+  color: white;
+  border: none;
+}
+.wit {
+  width: 46%;
+}
+.bg-my {
+  background-color: none !important;
+}
